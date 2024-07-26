@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
             sum += parseFloat(prices[i].textContent);
         }
 
-        let totalPriceElement = document.querySelector(".total_price");
-        totalPriceElement.innerHTML = "Total Price: Rs " + sum;
+        let ans = document.querySelector("#ans");
+        ans.innerHTML = "ans " + sum;
     };
 
     getSumBtn.addEventListener("click", getSum);
